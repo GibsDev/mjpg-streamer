@@ -17,4 +17,3 @@ EXPOSE 8080/TCP
 
 ENTRYPOINT ["/mjpg-streamer/mjpg-streamer-experimental/docker-start.sh"]
 
-CMD ["input_uvc.so"]
